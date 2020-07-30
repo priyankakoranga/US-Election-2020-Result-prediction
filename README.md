@@ -8,7 +8,6 @@
 * Performed unsupervised machine learning, k means clusterning to cluster the embedding according to their polarity.
 * Calculated the final Result based on the analysis of the tweets.
 
-
 ## Motivation
   The prolifertion of social media on recent past has provided end users a powerfull platform  like facebook twitter and Instagram.
   These platform are actively being used to share ratings reviews and recommendations.These platmorm also allows users to express there 
@@ -17,11 +16,12 @@
   topics and themes in the sentence.
   
 ## Code and Resources Used
-  **Python Version:** 3.7
+  **Python Version:** 3.7 <br>
   **Packages:** pandas numpy sklearn json csv word2vec tweepy sklearn gensim nltk
 
 ## Data Collection
   The data for this project is collected for two candidates namely Donald trump and Joe Biden using twitter streaming data.
+  <br>
    
    
 ### Data Preprocessing
@@ -35,8 +35,8 @@
 
       
 ## Model Building
-   * This project presents two algorithms to analyse Twitter data for prediction:
-   **1. Lexicon based algorithm:** Use of VADER lexicon to find the polarity of the sentence.
+## * This project presents two algorithms to analyse Twitter data for prediction:<br>
+   **1. Lexicon based algorithm:** Use of VADER lexicon to find the polarity of the sentence.<br>
    **2. Unsupervised Machine Learning:** Implemented Machine learning on the Word2vec model using the K-Means Clustering algorithm.
          Here 2 centriods are assigned for positive  and negitive opinions and k means algorithm allocates every data point to the nearest cluster. Then words are assigned a
          sentiment score based on the cluster they belong or how close they are to that cluster.
