@@ -1,12 +1,10 @@
-# US-Election-2020-Result-prediction
-Predicting US Election-2020 Result prediction using Twitter data.
-
-1.Data Collection- The Data for the project is collected for two candidates namely Donald Trump and Joe Bieden.
-
-2.Data Preprocessing - The data is then preprocessed using NLP.
-
-3.Performing sentiment analysis on twitter data using two approaches-
-  a.Lexicon Based approach- In this Approach the tweets were categorised using VADER. 
-  b.Machine Learning approach- In this Approach, Word2Vec algorithm is applied to produce word embeddings and further this Word2Vec model is used in K-Means Clustering.
-  
-4.Final prediction of the results of US Election-2020.
+# US-Election 2020 Result Prediction : Project Overview
+* Created a tool that predicts the result of US-Election 2020 .
+* Scraped over 50 thousand tweets using twitter streaming API.
+* Engineered features from the json data by extracting important features into CSV file.
+* Preprocessed the tweets to overcome noise from the dataset.
+* Labeled the Tweets according to the polarity of the tweet using Lexicon based algorithm.
+* Generated word embeddings using Word2Vec algorithm with CBOW.
+## Code and Resources Used
+**Python Version: **3.7
+**Packages:** pandas numpy sklearn json wor
